@@ -2,11 +2,20 @@
     margin:0;
     padding:0;
 }
-
+/* i set root for better view because it is not responsive design */
+:root{
+    --desktop-width: 1536px;
+    --primary-color: #469165;
+}
+/* NOTE : Please change the width of body according to your screen size. */
+body{
+    width : var(--desktop-width);
+    margin: auto;
+}
 /* Header Section Start*/
 .nav-bar{
     height: 92px;
-    width: 1536px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
