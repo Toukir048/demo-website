@@ -73,6 +73,7 @@ body{
 
 .banner{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items:center;
     width: var(--desktop-width);
@@ -124,4 +125,54 @@ body{
     line-height: 24px;
     font-weight: 400;
     letter-spacing: 0%;
+}
+
+.banner-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.banner-btn button{
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.b-btn-1{
+    color: white;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+}
+
+.b-btn-1:hover
+{
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 2px solid;
+    border-color: var(--primary-color);
+}
+
+.b-btn-2{
+    color: white;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-color: white;
+}
+
+.b-btn-2:hover{
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+}
+.b-btn-icon{
+    width: 18px;
+    height: auto;
 }
