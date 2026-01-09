@@ -11,8 +11,11 @@
 body{
     width : var(--desktop-width);
     margin: auto;
+    font-family: 'Inter';
 }
 /* Header Section Start*/
+
+/* Nav Design Start */
 .nav-bar{
     height: 92px;
     width: 100%;
@@ -63,4 +66,62 @@ body{
     background-color: transparent;
     color: #469165;
     border-color:#469165;
+}
+/* Nav Design End */
+
+/* Banner Design Start */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: var(--desktop-width);
+    height: 674px;
+    background-image: url(../assets/hero-bg.png);
+    opacity: 0.9;
+
+}
+
+.banner-content{
+    width: 1360px;
+    height: 379px;
+    /* background: #f35858; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.badges{
+    color: var(--primary-color);
+    background: white;
+    padding:8px 12px;
+    font-size: 16px;
+    border-radius: 1000px;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background: #2f7a4f;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.banner-content h1{
+    line-height: 84px;
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    letter-spacing: 0%;
+}
+
+.banner-content p{
+    color: white;
+    text-align: center;
+    font-size:18px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0%;
 }
