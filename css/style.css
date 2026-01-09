@@ -176,3 +176,73 @@ body{
     width: 18px;
     height: auto;
 }
+
+/* Banner Design End */
+
+/* App Section-1 Start */
+.app-1{
+    display: flex;
+    flex-direction: column;
+    width:var(--desktop-width);
+    height: 448px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.app-1 h1{
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+   
+}
+
+.app-1 p{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.info-cards{
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+    margin-top:24px;
+    gap: 16px;
+}
+
+.i-c-structure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 322px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 
+    0 8px 24px rgba(0, 0, 0, 0.08),
+    0 2px 6px rgba(0, 0, 0, 0.09);
+}
+
+.i-c-icon img{
+    width: 32px;
+    height: 32px;
+}
+
+.i-c-icon{
+    background-color: #f95555;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
